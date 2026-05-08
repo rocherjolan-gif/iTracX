@@ -1,0 +1,36 @@
+{
+    "description":  "Suivi local de budget, patrimoine, portefeuilles et tâches.",
+    "short_name":  "iTracX",
+    "id":  "./",
+    "icons":  [
+                  {
+                      "purpose":  "any",
+                      "type":  "image/png",
+                      "sizes":  "192x192",
+                      "src":  "./icon-192.png"
+                  },
+                  {
+                      "purpose":  "any",
+                      "type":  "image/png",
+                      "sizes":  "512x512",
+                      "src":  "./icon-512.png"
+                  },
+                  {
+                      "purpose":  "maskable",
+                      "type":  "image/png",
+                      "sizes":  "512x512",
+                      "src":  "./icon-512.png"
+                  }
+              ],
+    "theme_color":  "#4361ee",
+    "display_override":  [
+                             "standalone",
+                             "minimal-ui"
+                         ],
+    "display":  "standalone",
+    "name":  "iTracX - Suivi Finances \u0026 Patrimoine",
+    "orientation":  "portrait-primary",
+    "scope":  "./",
+    "start_url":  "./index.html",
+    "background_color":  "#ffffff"
+}
